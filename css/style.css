@@ -184,7 +184,12 @@ footer a img{
 	 
 
 
+.rotate:hover{
+	transform: rotateZ(-360deg);
+	cursor: pointer;
+	transition: transform 2s;
 
+}
 	
 
 
