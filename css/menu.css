@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+html{
+	font-size: 62.5;	
+}
+
+
+
+
+.contenedor{
+	display: grid;
+	grid-template-columns: 10% 90%;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-areas: 
+	"nav menu" 
+	"nav footer";
+
+}
+
+
+
+
+#nav{
+	grid-area: nav ;
+}
+
+
+#menu{
+	grid-area: menu;
+}
+
+#footer{
+	grid-area: footer;
+}
+
+
+*{
+	font-family: 'EB Garamond', serif;
+	font-size: 1rem;
+	line-height: 1,5rem;
+	font-style:	italic;
+	padding: 0;
+	margin: 0;
+	color: #F5EBEB;
+}
+
+body{
+	background-color: #070707;
+}
+
+nav{
+	
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	flex-direction: column;
+	justify-content: flex-start;
+	}
+
+nav ul li a{
+	display: flex;
+	list-style: none;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: #FFFFFF;	
+	margin-right: 30px;
+	margin: 30%;
+
